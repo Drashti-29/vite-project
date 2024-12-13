@@ -1,0 +1,73 @@
+/* ArtworkList Styles */
+.artwork-list-container {
+    margin-top: 20px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    max-width: 800px;
+    margin: 0 auto; /* Centering the list container horizontally */
+  }
+  
+  /* Heading for the Artwork List */
+  .artwork-list-container h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Styling for the Artwork List */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+  }
+  
+  /* Styling for the Artwork List items */
+  ul li strong {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Description and Year */
+  ul li span {
+    color: #555;
+    font-size: 14px;
+  }
+  
+  /* Add hover effect for the list items */
+  ul li:hover {
+    background-color: #f0f8ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Message when no artworks are available */
+  p {
+    font-size: 18px;
+    color: #777;
+    text-align: center;
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .artwork-list-container {
+      padding: 20px;
+    }
+  
+    ul li {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
